@@ -6,6 +6,6 @@
   </head>
   <body>
     <h2>Hola</h2>
-    <p th:text="'Hola ' + ${mensaje}"/>
+    <p  th:each="i : ${#numbers.sequence(1, number)}"  th:text="${i}+ '.- Hola ' + ${mensaje}"/>
   </body>
 </html>

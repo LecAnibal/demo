@@ -13,15 +13,4 @@ class DemoApplicationTests {
 
 	}
 
-	@Test
-	void pruebaMatematicaBasica() {
-		int numeroA = 2;
-		int numeroB = 3;
-		int suma = numeroA + numeroB;
-
-		// Esperamos que la suma sea 5.
-		// Estructura: assertEquals(valorEsperado, valorReal);
-		assertEquals(5, suma, "La suma de 2 + 3 debería ser 5");
-	}
-
 }
